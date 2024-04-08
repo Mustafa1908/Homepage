@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #06b6d4;
+  min-height: 27em;
+}
+
+.header-figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-picture {
+  max-width: 20rem;
+  min-height: 24rem;
+  object-fit: cover;
+}
+
+.header-picture-text {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.about-me-section {
+  border: 1px solid black;
+  padding-bottom: 11rem;
+  background-color: white;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.projects-pictures {
+  max-width: 15rem;
+  min-height: 17rem;
+  object-fit: cover;
+}
+
+.projects-description {
+  padding-bottom: 11rem;
+  border: 1px solid black;
+}
+
+.footer-informations-container {
+  background-color: #06b6d4;
+  min-height: 30rem;
+}
+
+.footer-picture {
+  display: block;
+  max-width: 100%;
+  min-height: 28rem;
+  overflow: hidden;
+  object-fit: cover;
+}
