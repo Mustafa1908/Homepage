@@ -20,7 +20,7 @@ h3 {
 
 header {
   background-color: #06b6d4;
-  min-height: 27em;
+  max-width: 21.3rem;
 }
 
 .header-figure {
@@ -76,6 +76,7 @@ header {
 }
 
 .header-icons {
+  color: black;
   font-size: 34px;
 }
 
@@ -106,11 +107,6 @@ header {
   padding-bottom: 4rem;
   margin-right: 1rem;
   background-color: rgb(241, 235, 235);
-}
-
-.project-header-icons-container {
-  display: flex;
-  gap: 1.2rem;
 }
 
 .project-icons-container {
@@ -150,13 +146,58 @@ header {
 }
 
 .footer-informations-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   background-color: #06b6d4;
-  min-height: 30rem;
+  max-width: 21.3rem;
+  max-height: 31rem;
+}
+
+.footer-header {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.footer-main-text-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: justify;
+  color: white;
+  margin-left: 0.5rem;
+  min-height: 26rem;
+}
+
+.footer-text {
+  max-width: 20rem;
+  font-size: 1.4rem;
+}
+
+.first-adress-text,
+.second-adress-text {
+  font-size: 1.1rem;
+}
+
+.footer-icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1px;
+  width: 100%;
+}
+
+.footer-icons {
+  font-size: 50px;
+  color: black;
 }
 
 .footer-picture {
   display: block;
-  max-width: 100%;
+  max-width: 21.3rem;
   min-height: 28rem;
   overflow: hidden;
   object-fit: cover;
