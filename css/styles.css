@@ -66,7 +66,7 @@ header {
 }
 
 .about-me-header {
-  margin-top: 4rem;
+  margin-top: 3rem;
   text-align: left;
   min-width: 90%;
   margin-bottom: 1rem;
@@ -75,7 +75,7 @@ header {
 
 .about-me-text {
   max-width: 90%;
-  font-size: var(--step-0);
+  font-size: var(--step--1);
 }
 
 .header-icons-container {
@@ -88,7 +88,7 @@ header {
 
 .header-icons {
   color: black;
-  font-size: var(--step-3);
+  font-size: var(--step-2);
 }
 
 .projects-container {
@@ -151,7 +151,7 @@ header {
 }
 
 .project-icons {
-  font-size: var(--step-2);
+  font-size: var(--step-1);
   text-decoration: none;
   color: #000;
 }
@@ -214,7 +214,7 @@ header {
 }
 
 .footer-icons {
-  font-size: var(--step-3);
+  font-size: var(--step-2);
   color: black;
 }
 
@@ -232,7 +232,7 @@ header {
     margin-top: 1rem;
     margin-bottom: 1rem;
     max-width: 47%;
-    min-height: 37rem;
+    min-height: 27rem;
     object-fit: cover;
   }
 
@@ -246,7 +246,7 @@ header {
     margin-bottom: 1rem;
     margin-top: 1rem;
     max-width: 47%;
-    max-height: 34rem;
+    max-height: 30rem;
     background-color: white;
   }
 
@@ -270,7 +270,7 @@ header {
   }
 
   .first-project-container {
-    min-height: 40rem;
+    min-height: 39.3rem;
   }
 
   .project-container-header {
@@ -316,7 +316,14 @@ header {
     gap: 2rem;
     background-color: #06b6d4;
     max-width: 55%;
-    max-height: 31rem;
+    max-height: 100%;
+  }
+
+  .footer-header {
+    text-align: left;
+    margin-top: 2rem;
+    font-size: var(--step-4);
+    color: white;
   }
 
   .footer-contact-icon {
@@ -351,4 +358,95 @@ header {
 }
 
 @media (min-width: 1024px) {
+  .header-picture {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 47%;
+    max-height: 17rem;
+    object-fit: cover;
+  }
+
+  .about-me-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 4rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    max-width: 47%;
+    max-height: 25rem;
+    background-color: white;
+  }
+
+  .header-icons-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-width: 100%;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    gap: 1.2rem;
+  }
+
+  .header-icons {
+    display: inline;
+  }
+
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+  }
+
+  .projects-container article {
+    max-width: 30%;
+  }
+
+  .first-project-container {
+    min-height: 41.5rem;
+  }
+
+  .project-container-header {
+    font-size: var(--step-4);
+    margin-bottom: 0.7rem;
+    text-align: left;
+  }
+
+  .projects-pictures {
+    max-width: 100%;
+    min-height: 17rem;
+    margin-right: 1rem;
+    object-fit: cover;
+  }
+
+  .projects-description-container {
+    padding-bottom: 4rem;
+    max-width: 100%;
+    background-color: rgb(241, 235, 235);
+  }
+
+  .project-header {
+    font-size: var(--step-1);
+    padding-left: 2rem;
+  }
+
+  .project-description {
+    margin-top: 1rem;
+    padding-left: 2rem;
+    max-width: 19rem;
+    font-size: var(--step-0);
+    text-align: justify;
+  }
+
+  footer {
+    display: flex;
+    background-color: #06b6d4;
+  }
 }
